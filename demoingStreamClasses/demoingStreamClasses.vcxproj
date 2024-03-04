@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{54751e37-cf40-47bd-87a8-0a4b15649496}</ProjectGuid>
-    <RootNamespace>STARTINGLab11a_hooray_</RootNamespace>
+    <ProjectGuid>{229179b2-9dfb-41c6-9d85-04639c6ad6bc}</ProjectGuid>
+    <RootNamespace>demoingStreamClasses</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,14 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab11a-partial.cpp" />
-    <ClCompile Include="Store.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Store.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

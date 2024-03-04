@@ -29,8 +29,12 @@ public:
 	void printDogDetails();
 };
 
+
+
 class Person : public Animal
 {
 	double costOfClothing; 
+
+
 };
 

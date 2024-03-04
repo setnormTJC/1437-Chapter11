@@ -25,7 +25,6 @@ void Animal::printAnimalDetails()
 }
 
 
-
 Dog::Dog(string sName, double clientSpecifiedSize, int tLength)
 {
 	Animal::speciesName = sName; 

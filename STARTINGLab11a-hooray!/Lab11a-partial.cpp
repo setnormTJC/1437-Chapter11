@@ -12,6 +12,7 @@ int main()
     cout << "\n\n";
 
     WebStore amazon{ "AMAZON!", 9999999.17, "www.amazon.com", true };
+    
     amazon.print(); 
     return 0;
 }

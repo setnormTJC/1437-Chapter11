@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{54751e37-cf40-47bd-87a8-0a4b15649496}</ProjectGuid>
-    <RootNamespace>STARTINGLab11a_hooray_</RootNamespace>
+    <ProjectGuid>{cb8d645f-70ca-451b-ad4f-3f4eb1374c49}</ProjectGuid>
+    <RootNamespace>gettingIntoComposition</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,14 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab11a-partial.cpp" />
-    <ClCompile Include="Store.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Store.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClCompile Include="gettingIntoComposition.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

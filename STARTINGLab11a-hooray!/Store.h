@@ -29,7 +29,7 @@ class PhysicalStore
 
 };
 
-class WebStore : public Store
+class WebStore : public Store //: means "inherits from" (WebStore < Store) 
 {
 
 	string webAddress; 
