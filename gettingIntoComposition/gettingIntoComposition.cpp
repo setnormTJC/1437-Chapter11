@@ -19,7 +19,7 @@ public:
     bool isPointy; 
 };
 
-class Dog /*: public Tail */
+class Dog /*: public Tail */ //Don't inherit from Tail (doesn't make sense) 
 {
     string name; 
     Nose noseObject; 
@@ -61,12 +61,59 @@ public:
     }
 };
 
+class ParentClass
+{
+    //private: (implicit) 
+    int parentMemberVariable; 
+
+public: 
+    void print()
+    {
+        cout << "This is the PARENT class's print function speaking!\n";
+    }
+};
+
+class ChildClass: public ParentClass
+{
+    string childMemberVariable; 
+
+public: 
+    //member function: 
+    /*this function overRIDES the parent class's print function*/
+    void print()
+    {
+        cout << "This is the CHILD's print function!\n";
+    }
+};
+
+
+void doSomething(int a)
+{
+    cout << "Doing something with " << a << endl; 
+}
+
+/*function overLOADing - two "flavors" of the `doSomething` function*/
+int doSomething(double b)
+{
+    return (int)b; //cast b to an integer type and return 
+}
+
+
 int main()
 {
-    
+
+   // doSomething()
+    ParentClass parentClassObject; 
+    ChildClass childClassObject; 
+
+    parentClassObject.print(); 
+    childClassObject.print(); 
+
+
+    //override! 
     Dog myDog("Doris", "2 cm", 21.23, true, "5 cm", 10, false);
 
-    myDog.printDogAttributes(); 
+    //myDog.printDogAttributes(); 
 
     
 
